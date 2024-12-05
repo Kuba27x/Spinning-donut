@@ -12,6 +12,7 @@ int main(void){
     float z[1760];
     char b[1760];
     printf("\x1b[2J");
+    printf("\e[1;31m");
   
     for(;;){
         memset(b, 32, 1760);
